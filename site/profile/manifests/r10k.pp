@@ -7,7 +7,7 @@ class profile::r10k {
     enable_ssl      => false,
   }
   class {'r10k::webhook' :
-    uuser => 'root',
+    user => 'root',
     group => 'root',
   }
 }
